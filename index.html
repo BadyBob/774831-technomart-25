@@ -5,8 +5,87 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header class=header>
+      <div class="user-bar">
+        <a class="user-bar__logo">ТЕХНОМАРТ</a>
+        <div class="search">Поиск</div>
+        <a class="user-bar__marker" href="#">Закладка</a>
+        <a class="user-bar__trashcan" href="#">Корзина</a>
+        <a class="user-bar__checkout" href="#">Оформить заказ</a>
+      </div>
+      <div class="header-info">
+        <h1 class="header-info__topic">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+        <div class="add">
+          <div class="add__number">+7 (812) 555-05-55</div>
+          <p class="add__direction">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        </div>
+        <div class="user-menu">
+            <a class="user-menu__entry" href="#">Войти</a>
+            <a class="user-menu__reg" href="#">Регистрация</a>
+        </div>
+      </div>
+      <nav class="nav">
+        <a class="nav__item">Главная</a>
+        <a class="nav__item" href="#">Компания</a>
+        <a class="nav__item" href="catalog.html">Каталог</a>
+        <a class="nav__item" href="#">Новости</a>
+        <a class="nav__item" href="#">Спецпредложения</a>
+        <a class="nav__item" href="#">Доставка</a>
+        <a class="nav__item" href="#">Контакты</a>
+      </nav>
+    </header>
+    <section class="info-full">
+      <h2 class="visually-hidden">Информация о компании техномарт</h2>
+      <h3 class="info-full__head">компания техномарт</h3>
+      <p class="info-full__item">
+        Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+        строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
+      </p>
+      <p class="info-full__item">
+        Мы можем доставить ваш товар в самые отдаленные точки России!
+        Техномарт работает со многими транспортными компаниями:
+      </p>
+      <ul class="info-full__list">
+        <li class="info-full__cell">Деловые линии</li>
+        <li class="info-full__cell">Автотрейдинг</li>
+        <li class="info-full__cell">ЖелДорЭкспедиция</li>
+      </ul>
+      <a class="full-info__detail" href="#">подробнее о компании</a>
+      <h3 class="full-info__head">контакты</h3>
+      <p class="info-full__item"></p>
+      <a class="full-info__map" href="#"><img src="http://placehold.it/150x100" alt="Карта"></a>
+      <a class="full-info__callme" href="#">заблудились? напишите нам!</a>
+    </section>
+    <footer class="footer">
+      <div class="footer-nav">
+        <a class="footer-nav__logo" href="#">техномарт</a>
+        <a class="footer-nav__item" href="#">Компания</a>
+        <a class="footer-nav__item" href="#">Новости</a>
+        <a class="footer-nav__item" href="#">Каталог</a>
+        <a class="footer-nav__item" href="#">Доставка</a>
+        <a class="footer-nav__item" href="#">Контакты</a>
+        <p class="footer-nav__add">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8  +7 (812) 555-05-55</p>
+        <a class="footer-nav__item" href="#">Материалы</a>
+        <a class="footer-nav__item" href="#">Техника</a>
+        <a class="footer-nav__item" href="#">Инструмент</a>
+        <a class="footer-nav__item" href="#">Спецпредложения</a>
+      </div>
+      <div class="footer-social">
+        <p class="footer-social__copyright">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+        <div class="social">
+          <a class="social__button social__button--vk" href="#">vk</a>
+          <a class="social__button social__button--face" href="#">face</a>
+          <a class="social__button social__button--inst" href="#">inst</a>
+        </div>
+        <div class="footer-social__feedback">
+          <span class="footer-social__feed">Обратная связь</span>
+          <a class="footer-social__item" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </div>
+        <div class="footer-social__developer">
+          <span class="footer-social__develop">Разработано —</span>
+          <a class="footer-social__item" href="htmlacademy.ru">htmlacademy.ru</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
